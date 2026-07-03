@@ -7,4 +7,8 @@ html {
   box-sizing: content-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 /* ================================================ common ======================================= */
