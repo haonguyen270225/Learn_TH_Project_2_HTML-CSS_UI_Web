@@ -12,6 +12,11 @@ body {
 }
 
 /* ================================================ common ======================================= */
+
+:root {
+  --primary-color: #fa4a0c;
+}
+
 .main-content {
   width: 1440px;
   margin-left: auto;
@@ -23,9 +28,31 @@ a {
   text-decoration: none;
 }
 
+.head-lv3 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #f6f6f6;
+}
+
+.btn {
+  width: 236px;
+  height: 68px;
+  border-radius: 30px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #fff;
+  cursor: pointer;
+}
+
 /* ================================================ header ======================================= */
 .header {
-  background-color: brown;
+  background-color: rgb(255, 255, 255);
+  height: 156px;
 }
 
 .header.fixed {
@@ -79,4 +106,66 @@ a {
 }
 .header a.active {
   cursor: default;
+}
+
+/* ================================================ hero 1 ======================================= */
+
+.hero-1 {
+  width: 1440px;
+  height: 619px;
+  top: -1px;
+  background-image: url(../img/background-hero-1.png);
+  margin: 0 auto;
+}
+
+.hero-1 .info {
+  display: flex;
+  padding: 72px 217.5px 220px;
+  flex-direction: column;
+}
+
+.hero-1 .info .head-lv3 {
+  margin: 0 auto 7px;
+}
+
+.hero-1 .info .head {
+  margin: 0 auto 17px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 5.8rem;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-1 .desc {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  margin: 0px auto 6px;
+  color: #f6f6f6;
+  width: 728px;
+  height: 96px;
+  text-align: center;
+}
+
+.hero-1 .action {
+  display: flex;
+  margin: 0 auto 0px;
+}
+.hero-1 .action .btn-playstore {
+  background-color: var(--primary-color);
+  margin-right: 34px;
+  cursor: default;
+}
+.hero-1 .action .btn-appstore {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.hero-1 .action .btn-appstore:hover {
+  background-color: var(--primary-color);
+  border: none;
 }
