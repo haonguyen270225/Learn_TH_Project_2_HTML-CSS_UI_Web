@@ -318,7 +318,7 @@ a {
   width: 1641px;
   height: 507px;
   background-color: #fff;
-  margin-top: -185px;
+  margin-top: -300px;
   padding: 150px 0px 150px;
   display: flex;
   /* justify-content: center; */
@@ -407,4 +407,41 @@ a {
 
 .create-call-to-action .btn-cta {
   text-align: center;
+}
+
+/* ================================================ footer  ======================================= */
+
+.content-footer {
+  background-color: #ffffff;
+}
+
+.content-footer .body {
+  display: flex;
+  width: 1210px;
+  height: 133px;
+  background-color: #fff8f5;
+  margin: 0 auto;
+  padding: 38px 115px 53px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.content-footer .list-social ul {
+  display: flex;
+  width: 171px;
+  height: 41px;
+  gap: 24px;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content-footer .desc-footer {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  text-align: right;
+  color: #5c5c5c;
 }
