@@ -28,6 +28,14 @@ a {
   text-decoration: none;
 }
 
+.head-lv2 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
 .head-lv3 {
   font-weight: 700;
   font-size: 1.4rem;
@@ -47,6 +55,14 @@ a {
   letter-spacing: 0.1px;
   color: #fff;
   cursor: pointer;
+}
+
+.desc {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #737373;
 }
 
 /* ================================================ header ======================================= */
@@ -171,9 +187,9 @@ a {
 }
 
 /* ================================================ mobile content ======================================= */
-.mobile-content {
-  /* background-color: #fa4a0c; */
-}
+/* .mobile-content {
+
+} */
 
 .mobile-content .mobile-item {
   /* background-color: aqua; */
@@ -210,4 +226,44 @@ a {
   letter-spacing: 0.1px;
   text-align: center;
   margin-top: 59px;
+}
+
+/* ================================================ create account ! ======================================= */
+.create-account {
+  background-color: #fff;
+}
+
+.create-account .body {
+  width: 1641px;
+  height: 507px;
+  background-color: #fff;
+  padding: 150px 0px 150px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.create-account .info {
+  width: 568px;
+  height: 280px;
+  margin-left: 170px;
+}
+.create-account .body .image-cac {
+  width: 302px;
+  height: 525px;
+  object-fit: cover;
+  margin: 78px 0px 83px 245px;
+  .element {
+    box-shadow: 16px 22px 42px 13px rgba(0, 0, 0, 0.24);
+  }
+}
+
+.create-account .info .head-lv3 {
+  color: var(--primary-color);
+  margin-bottom: 7px;
+}
+.create-account .info .head-lv2 {
+  margin-bottom: 7px;
+}
+.create-account .info .desc {
 }
