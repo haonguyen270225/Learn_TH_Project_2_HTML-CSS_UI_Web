@@ -55,6 +55,7 @@ a {
   letter-spacing: 0.1px;
   color: #fff;
   cursor: pointer;
+  border: none;
 }
 
 .desc {
@@ -219,7 +220,7 @@ a {
   margin-top: 500px;
 }
 
-.mobile-content .mobile-item .desc {
+.mobile-content .mobile-item .desc-mobile {
   font-weight: 600;
   font-size: 4.4rem;
   line-height: 36px;
@@ -231,12 +232,14 @@ a {
 /* ================================================ create account ! ======================================= */
 .create-account {
   background-color: #fff;
+  margin-top: 59px;
 }
 
 .create-account .body {
   width: 1641px;
   height: 507px;
   background-color: #fff;
+  margin-top: -185px;
   padding: 150px 0px 150px;
   display: flex;
   /* justify-content: center; */
@@ -262,20 +265,20 @@ a {
 .create-account .info .head-lv2 {
   margin-bottom: 7px;
 }
-.create-account .info .desc {
-}
 
 /* ================================================ Explore varieties  ======================================= */
 
 .explore {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .explore .body {
+  /* margin-bottom: ; */
   width: 1641px;
   height: 507px;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 150px 0px 150px;
+  margin-top: -185px;
   display: flex;
   /* justify-content: center; */
   flex-direction: row-reverse;
@@ -303,4 +306,105 @@ a {
   margin-bottom: 7px;
 }
 .explore .info .desc {
+}
+
+/* ================================================ Checkout  ======================================= */
+.create-checkout {
+  background-color: #fff;
+  margin-top: 59px;
+}
+
+.create-checkout .body {
+  width: 1641px;
+  height: 507px;
+  background-color: #fff;
+  margin-top: -185px;
+  padding: 150px 0px 150px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.create-checkout .info {
+  width: 568px;
+  height: 280px;
+  margin-left: 170px;
+}
+.create-checkout .body .image-cac {
+  width: 302px;
+  height: 525px;
+  object-fit: cover;
+  margin: 78px 0px 83px 245px;
+}
+
+.create-checkout .info .head-lv3 {
+  color: var(--primary-color);
+  margin-bottom: 7px;
+}
+.create-checkout .info .head-lv2 {
+  margin-bottom: 7px;
+}
+
+/* ================================================ Call_To_Action  ======================================= */
+.create-call-to-action {
+  background-color: #252b42;
+  height: 516px;
+  /* top: -5.9px; */
+}
+
+.create-call-to-action .body {
+  background-image: url(../img/img-call-to-action.png);
+  height: 100%;
+  width: 1440px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.create-call-to-action .info {
+  padding-top: 130px;
+  margin-bottom: 50px;
+}
+.create-call-to-action .info .head-lv2 {
+  color: #fff;
+  text-align: center;
+}
+.create-call-to-action .info .desc-cta {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #fff;
+}
+
+.create-call-to-action .body .btn-cta-playstore {
+  background-color: var(--primary-color);
+  width: 142px;
+  height: 64px;
+  border-radius: 10px;
+  margin-right: 16px;
+  font-size: 1.6rem;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+.create-call-to-action .body .btn-cta-appstore {
+  width: 173px;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  font-size: 1.6rem;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+.create-call-to-action .body .btn-cta-appstore:hover {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.create-call-to-action .btn-cta {
+  text-align: center;
 }
