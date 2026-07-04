@@ -253,9 +253,6 @@ a {
   height: 525px;
   object-fit: cover;
   margin: 78px 0px 83px 245px;
-  .element {
-    box-shadow: 16px 22px 42px 13px rgba(0, 0, 0, 0.24);
-  }
 }
 
 .create-account .info .head-lv3 {
@@ -266,4 +263,44 @@ a {
   margin-bottom: 7px;
 }
 .create-account .info .desc {
+}
+
+/* ================================================ Explore varieties  ======================================= */
+
+.explore {
+  background-color: #fff;
+}
+
+.explore .body {
+  width: 1641px;
+  height: 507px;
+  background-color: #fff;
+  padding: 150px 0px 150px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.explore .info {
+  width: 568px;
+  height: 280px;
+  margin: 88px 0px 140px 254px;
+}
+.explore .body .image-explore {
+  width: 302px;
+  height: 525px;
+  object-fit: cover;
+  margin: 78px 232px 185px 100px;
+}
+
+.explore .info .head-lv3 {
+  color: var(--primary-color);
+  margin-bottom: 7px;
+}
+.explore .info .head-lv2 {
+  margin-bottom: 7px;
+}
+.explore .info .desc {
 }
